@@ -88,7 +88,7 @@ namespace csse
                 else
                 {
 
-                    MessageBox.Show(" create oreder successfully" + "total amount = " + tot);
+                   // MessageBox.Show(" create oreder successfully" + "total amount = " + tot);
                 }
 
 
