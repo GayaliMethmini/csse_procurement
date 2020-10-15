@@ -29,12 +29,6 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.product = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.deliveryStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.requisitionStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -42,6 +36,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.labelorder = new System.Windows.Forms.Label();
+            this.product = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.description = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.deliveryStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orderStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,41 +56,11 @@
             this.price,
             this.description,
             this.deliveryStatus,
-            this.requisitionStatus});
+            this.orderStatus});
             this.dataGridView1.Location = new System.Drawing.Point(87, 409);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(750, 105);
             this.dataGridView1.TabIndex = 54;
-            // 
-            // product
-            // 
-            this.product.HeaderText = "Product";
-            this.product.Name = "product";
-            // 
-            // quantity
-            // 
-            this.quantity.HeaderText = "Quantity";
-            this.quantity.Name = "quantity";
-            // 
-            // price
-            // 
-            this.price.HeaderText = "Price";
-            this.price.Name = "price";
-            // 
-            // description
-            // 
-            this.description.HeaderText = "Description";
-            this.description.Name = "description";
-            // 
-            // deliveryStatus
-            // 
-            this.deliveryStatus.HeaderText = "Delivery Status";
-            this.deliveryStatus.Name = "deliveryStatus";
-            // 
-            // requisitionStatus
-            // 
-            this.requisitionStatus.HeaderText = "Requisition Status";
-            this.requisitionStatus.Name = "requisitionStatus";
             // 
             // textBox2
             // 
@@ -162,6 +132,36 @@
             this.labelorder.TabIndex = 47;
             this.labelorder.Text = "Order Details";
             // 
+            // product
+            // 
+            this.product.HeaderText = "Product";
+            this.product.Name = "product";
+            // 
+            // quantity
+            // 
+            this.quantity.HeaderText = "Quantity";
+            this.quantity.Name = "quantity";
+            // 
+            // price
+            // 
+            this.price.HeaderText = "Price";
+            this.price.Name = "price";
+            // 
+            // description
+            // 
+            this.description.HeaderText = "Description";
+            this.description.Name = "description";
+            // 
+            // deliveryStatus
+            // 
+            this.deliveryStatus.HeaderText = "Delivery Status";
+            this.deliveryStatus.Name = "deliveryStatus";
+            // 
+            // orderStatus
+            // 
+            this.orderStatus.HeaderText = "Order Status";
+            this.orderStatus.Name = "orderStatus";
+            // 
             // OrderDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -188,12 +188,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn product;
-        private System.Windows.Forms.DataGridViewTextBoxColumn quantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn description;
-        private System.Windows.Forms.DataGridViewTextBoxColumn deliveryStatus;
-        private System.Windows.Forms.DataGridViewTextBoxColumn requisitionStatus;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox4;
@@ -201,5 +195,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelorder;
+        private System.Windows.Forms.DataGridViewTextBoxColumn product;
+        private System.Windows.Forms.DataGridViewTextBoxColumn quantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn description;
+        private System.Windows.Forms.DataGridViewTextBoxColumn deliveryStatus;
+        private System.Windows.Forms.DataGridViewTextBoxColumn orderStatus;
     }
 }
