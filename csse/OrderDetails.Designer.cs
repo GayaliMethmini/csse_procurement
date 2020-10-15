@@ -177,6 +177,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelorder);
             this.Name = "OrderDetails";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderDetails";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

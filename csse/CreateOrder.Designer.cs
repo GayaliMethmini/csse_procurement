@@ -30,10 +30,10 @@
         {
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textLoc = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxProduct = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,10 +41,10 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textqty = new System.Windows.Forms.TextBox();
+            this.comboBoxSupplier = new System.Windows.Forms.ComboBox();
+            this.textdes = new System.Windows.Forms.TextBox();
+            this.txtprice = new System.Windows.Forms.TextBox();
             this.labelorder = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -68,15 +68,15 @@
             this.label7.TabIndex = 45;
             this.label7.Text = "Location : ";
             // 
-            // textBox3
+            // textLoc
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox3.Location = new System.Drawing.Point(490, 267);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(289, 66);
-            this.textBox3.TabIndex = 44;
+            this.textLoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textLoc.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.textLoc.Location = new System.Drawing.Point(490, 267);
+            this.textLoc.Multiline = true;
+            this.textLoc.Name = "textLoc";
+            this.textLoc.Size = new System.Drawing.Size(289, 66);
+            this.textLoc.TabIndex = 44;
             // 
             // label6
             // 
@@ -98,12 +98,12 @@
             this.label5.TabIndex = 41;
             this.label5.Text = "Quantity : ";
             // 
-            // comboBox3
+            // comboBoxProduct
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.comboBoxProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxProduct.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.comboBoxProduct.FormattingEnabled = true;
+            this.comboBoxProduct.Items.AddRange(new object[] {
             "Cement",
             "Sand",
             "Bricks",
@@ -125,10 +125,10 @@
             "Roof Tiles",
             "Floor Tiles",
             "Paint"});
-            this.comboBox3.Location = new System.Drawing.Point(198, 267);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(157, 28);
-            this.comboBox3.TabIndex = 40;
+            this.comboBoxProduct.Location = new System.Drawing.Point(198, 267);
+            this.comboBoxProduct.Name = "comboBoxProduct";
+            this.comboBoxProduct.Size = new System.Drawing.Size(157, 28);
+            this.comboBoxProduct.TabIndex = 40;
             // 
             // label4
             // 
@@ -192,6 +192,7 @@
             this.button1.TabIndex = 34;
             this.button1.Text = "Place Order";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // dateTimePicker1
             // 
@@ -203,21 +204,21 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(289, 26);
             this.dateTimePicker1.TabIndex = 33;
             // 
-            // textBox1
+            // textqty
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox1.Location = new System.Drawing.Point(198, 411);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 26);
-            this.textBox1.TabIndex = 31;
+            this.textqty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textqty.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.textqty.Location = new System.Drawing.Point(198, 411);
+            this.textqty.Name = "textqty";
+            this.textqty.Size = new System.Drawing.Size(157, 26);
+            this.textqty.TabIndex = 31;
             // 
-            // comboBox2
+            // comboBoxSupplier
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBoxSupplier.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxSupplier.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.comboBoxSupplier.FormattingEnabled = true;
+            this.comboBoxSupplier.Items.AddRange(new object[] {
             "Shehan",
             "Gayan",
             "Harsha",
@@ -232,30 +233,29 @@
             "Harith",
             "Dushan",
             "Kusal"});
-            this.comboBox2.Location = new System.Drawing.Point(198, 197);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(157, 28);
-            this.comboBox2.TabIndex = 30;
+            this.comboBoxSupplier.Location = new System.Drawing.Point(198, 197);
+            this.comboBoxSupplier.Name = "comboBoxSupplier";
+            this.comboBoxSupplier.Size = new System.Drawing.Size(157, 28);
+            this.comboBoxSupplier.TabIndex = 30;
             // 
-            // textBox7
+            // textdes
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox7.Location = new System.Drawing.Point(490, 363);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(225, 121);
-            this.textBox7.TabIndex = 29;
+            this.textdes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textdes.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.textdes.Location = new System.Drawing.Point(490, 363);
+            this.textdes.Multiline = true;
+            this.textdes.Name = "textdes";
+            this.textdes.Size = new System.Drawing.Size(225, 121);
+            this.textdes.TabIndex = 29;
             // 
-            // textBox4
+            // txtprice
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox4.Location = new System.Drawing.Point(198, 340);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(157, 26);
-            this.textBox4.TabIndex = 28;
+            this.txtprice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtprice.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtprice.Location = new System.Drawing.Point(198, 340);
+            this.txtprice.Name = "txtprice";
+            this.txtprice.Size = new System.Drawing.Size(157, 26);
+            this.txtprice.TabIndex = 28;
             // 
             // labelorder
             // 
@@ -275,10 +275,10 @@
             this.ClientSize = new System.Drawing.Size(884, 661);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textLoc);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.comboBoxProduct);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -286,12 +286,13 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textqty);
+            this.Controls.Add(this.comboBoxSupplier);
+            this.Controls.Add(this.textdes);
+            this.Controls.Add(this.txtprice);
             this.Controls.Add(this.labelorder);
             this.Name = "CreateOrder";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -302,10 +303,10 @@
 
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textLoc;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBoxProduct;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -313,10 +314,10 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textqty;
+        private System.Windows.Forms.ComboBox comboBoxSupplier;
+        private System.Windows.Forms.TextBox textdes;
+        private System.Windows.Forms.TextBox txtprice;
         private System.Windows.Forms.Label labelorder;
     }
 }

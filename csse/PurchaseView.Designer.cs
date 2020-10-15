@@ -141,6 +141,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.labelorder);
             this.Name = "PurchaseView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PurchaseView";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
