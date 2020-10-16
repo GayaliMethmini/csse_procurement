@@ -77,7 +77,7 @@ namespace csse
 
 
 
-
+                /*
                 if (tot > 100000)
                 {
                     MessageBox.Show(" Your total amount is " + tot + "/=." + " Total amount exceed the price limit. Please get approval for this order.");
@@ -86,10 +86,10 @@ namespace csse
 
 
                 else
-                {
+                {}*/
 
-                   MessageBox.Show(" create oreder successfully" + "total amount = " + tot);
-                }
+                   MessageBox.Show(" create order successfully " + "total amount is " + tot + "/=");
+                
 
 
 
