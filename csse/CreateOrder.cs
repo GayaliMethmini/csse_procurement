@@ -110,7 +110,26 @@ namespace csse
 
         private void comboBoxProduct_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            if(comboBoxProduct.Text == "Cement")
+            {
+                txtprice.Text = "100";
+            }
+            else if (comboBoxProduct.Text == "Sand")
+            {
+                txtprice.Text = "12000";
+            }
+            else if (comboBoxProduct.Text == "Bricks")
+            {
+                txtprice.Text = "10";
+            }
+            else if (comboBoxProduct.Text == "Tiles")
+            {
+                txtprice.Text = "6000";
+            }
+            else if (comboBoxProduct.Text == "Pipes")
+            {
+                txtprice.Text = "300";
+            }
         }
     }
 }

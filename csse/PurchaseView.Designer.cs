@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PurchaseView));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.orderRef = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,14 +61,15 @@
             this.delete});
             this.dataGridView1.Location = new System.Drawing.Point(12, 189);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(860, 338);
             this.dataGridView1.TabIndex = 40;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // orderRef
             // 
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            this.orderRef.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.orderRef.DefaultCellStyle = dataGridViewCellStyle1;
             this.orderRef.HeaderText = "Order Reference";
             this.orderRef.Name = "orderRef";
             // 

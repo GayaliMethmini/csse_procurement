@@ -64,42 +64,6 @@ namespace csse
             dataGridView1.Rows[6].Cells[2].Value = "3500";
             dataGridView1.Rows[6].Cells[3].Value = "abcdefghigklmnopqrstuvwxyz";
 
-            dataGridView1.Rows.Add();
-            dataGridView1.Rows[7].Cells[0].Value = "Tiles";
-            dataGridView1.Rows[7].Cells[1].Value = "200";
-            dataGridView1.Rows[7].Cells[2].Value = "130000";
-            dataGridView1.Rows[7].Cells[3].Value = "abcdefghigklmnopqrstuvwxyz";
-
-            dataGridView1.Rows.Add();
-            dataGridView1.Rows[8].Cells[0].Value = "Glass";
-            dataGridView1.Rows[8].Cells[1].Value = "20";
-            dataGridView1.Rows[8].Cells[2].Value = "8000";
-            dataGridView1.Rows[8].Cells[3].Value = "abcdefghigklmnopqrstuvwxyz";
-
-            dataGridView1.Rows.Add();
-            dataGridView1.Rows[9].Cells[0].Value = "Paint";
-            dataGridView1.Rows[9].Cells[1].Value = "10";
-            dataGridView1.Rows[9].Cells[2].Value = "8000";
-            dataGridView1.Rows[9].Cells[3].Value = "abcdefghigklmnopqrstuvwxyz";
-
-            dataGridView1.Rows.Add();
-            dataGridView1.Rows[10].Cells[0].Value = "Binding wire";
-            dataGridView1.Rows[10].Cells[1].Value = "50";
-            dataGridView1.Rows[10].Cells[2].Value = "40000";
-            dataGridView1.Rows[10].Cells[3].Value = "abcdefghigklmnopqrstuvwxyz";
-
-            dataGridView1.Rows.Add();
-            dataGridView1.Rows[11].Cells[0].Value = "Stones";
-            dataGridView1.Rows[11].Cells[1].Value = "100";
-            dataGridView1.Rows[11].Cells[2].Value = "12000";
-            dataGridView1.Rows[11].Cells[3].Value = "abcdefghigklmnopqrstuvwxyz";
-
-            dataGridView1.Rows.Add();
-            dataGridView1.Rows[12].Cells[0].Value = "Switches";
-            dataGridView1.Rows[12].Cells[1].Value = "50";
-            dataGridView1.Rows[12].Cells[2].Value = "15000";
-            dataGridView1.Rows[12].Cells[3].Value = "abcdefghigklmnopqrstuvwxyz";
-
         }
 
         private void button3_Click(object sender, EventArgs e)

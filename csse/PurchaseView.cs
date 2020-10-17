@@ -90,8 +90,14 @@ namespace csse
             dataGridView1.Rows[9].Cells[2].Value = "Express";
             dataGridView1.Rows[9].Cells[3].Value = "220, Rathmaldeniya Road, Ragama";
             dataGridView1.Rows[9].Cells[4].Value = "13/06/2019";
-
             
+            dataGridView1.Rows.Add();
+            dataGridView1.Rows[10].Cells[0].Value = "OR011";
+            dataGridView1.Rows[10].Cells[1].Value = "Harsha";
+            dataGridView1.Rows[10].Cells[2].Value = "Torfy";
+            dataGridView1.Rows[10].Cells[3].Value = "63/2, Stace Road, Grandpass";
+            dataGridView1.Rows[10].Cells[4].Value = "20/06/2019";
+
 
         }
 
@@ -140,17 +146,36 @@ namespace csse
                 editPurchaseViewDetails d = new editPurchaseViewDetails();
                 d.Show();
             }
-            if (e.ColumnIndex == senderGrid.Columns["Edit"].Index && e.RowIndex == 1)
+            else if (e.ColumnIndex == senderGrid.Columns["Edit"].Index && e.RowIndex == 1)
             {
                 this.Hide();
                 editPurchaseViewDetails1 d = new editPurchaseViewDetails1();
                 d.Show();
             }
-            if (e.ColumnIndex == senderGrid.Columns["Edit"].Index && e.RowIndex == 2)
+            else if (e.ColumnIndex == senderGrid.Columns["Edit"].Index && e.RowIndex == 2)
             {
                 this.Hide();
                 editPurchaseViewDetails2 d = new editPurchaseViewDetails2();
                 d.Show();
+            }
+
+            //Delete column
+            if (e.ColumnIndex == senderGrid.Columns["Delete"].Index && e.RowIndex == 0)
+            {
+                dataGridView1.Rows.RemoveAt(e.RowIndex);
+            }
+            else if (e.ColumnIndex == senderGrid.Columns["Delete"].Index && e.RowIndex == 1)
+            {
+                dataGridView1.Rows.RemoveAt(e.RowIndex);
+
+            }
+            else if (e.ColumnIndex == senderGrid.Columns["Delete"].Index && e.RowIndex == 2)
+            {
+                dataGridView1.Rows.RemoveAt(e.RowIndex);
+            }
+            else if (e.ColumnIndex == senderGrid.Columns["Delete"].Index && e.RowIndex == 10)
+            {
+                dataGridView1.Rows.RemoveAt(e.RowIndex);
             }
         }
     }
