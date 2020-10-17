@@ -129,4 +129,14 @@
   <metadata name="description.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAMRJREFUWEft0z8LQWEUgPGbkFIoBgwWysDnMVksDBaLYrUy8j2sBhZfQgZKKWU1
+        iPx5Tnk3Bl1O0Xnq160z3PP23q5nWZb1iwUeT/VKWGKBmAw0K2KHG67IQ60CtpDlFzSgVhYbyPITKlBt
+        AlkuxmijhSbqqEFuRGZd9NDHEFX4KoQj3AHeJZ8rCl8N8Ozlr8jSA/aQW/hII7gFMySQQgY5pBFHGF8p
+        iCncITpQL4k15ABnyN+hXhkrzBGRgWVZlvUHed4dIKE/ciNps3EAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>

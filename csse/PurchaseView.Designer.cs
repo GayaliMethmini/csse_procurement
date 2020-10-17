@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PurchaseView));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.orderRef = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.supplier = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,6 +41,7 @@
             this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.labelorder = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,15 +59,16 @@
             this.products,
             this.edit,
             this.delete});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 207);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 189);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(860, 403);
+            this.dataGridView1.Size = new System.Drawing.Size(860, 338);
             this.dataGridView1.TabIndex = 40;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // orderRef
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.orderRef.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            this.orderRef.DefaultCellStyle = dataGridViewCellStyle2;
             this.orderRef.HeaderText = "Order Reference";
             this.orderRef.Name = "orderRef";
             // 
@@ -107,6 +110,7 @@
             // 
             this.delete.HeaderText = "Delete";
             this.delete.Name = "delete";
+            this.delete.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.delete.Text = "Delete";
             this.delete.UseColumnTextForButtonValue = true;
             // 
@@ -114,12 +118,13 @@
             // 
             this.button1.BackColor = System.Drawing.Color.RoyalBlue;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(684, 153);
+            this.button1.Location = new System.Drawing.Point(690, 98);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 34);
             this.button1.TabIndex = 39;
             this.button1.Text = "Create Order";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // labelorder
             // 
@@ -131,12 +136,25 @@
             this.labelorder.TabIndex = 38;
             this.labelorder.Text = "Purchase View";
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button3.Location = new System.Drawing.Point(12, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(50, 30);
+            this.button3.TabIndex = 51;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // PurchaseView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(884, 661);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.labelorder);
@@ -152,6 +170,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label labelorder;
+        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridViewTextBoxColumn orderRef;
         private System.Windows.Forms.DataGridViewTextBoxColumn supplier;
         private System.Windows.Forms.DataGridViewTextBoxColumn company;
@@ -160,7 +181,5 @@
         private System.Windows.Forms.DataGridViewButtonColumn products;
         private System.Windows.Forms.DataGridViewButtonColumn edit;
         private System.Windows.Forms.DataGridViewButtonColumn delete;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label labelorder;
     }
 }

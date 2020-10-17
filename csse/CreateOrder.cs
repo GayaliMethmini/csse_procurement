@@ -95,5 +95,22 @@ namespace csse
 
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(" order details are saved successfully");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DashboardSm d = new DashboardSm();
+            d.Show();
+        }
+
+        private void comboBoxProduct_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

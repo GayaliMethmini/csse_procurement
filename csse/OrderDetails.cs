@@ -15,6 +15,23 @@ namespace csse
         public OrderDetails()
         {
             InitializeComponent();
+            displayDetails();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PurchaseView d = new PurchaseView();
+            d.Show();
+        }
+
+        public void displayDetails()
+        {
+            dataGridView1.Rows.Add();
+            dataGridView1.Rows[0].Cells[0].Value = "Bricks";
+            dataGridView1.Rows[0].Cells[1].Value = "5000";
+            dataGridView1.Rows[0].Cells[2].Value = "50000";
+            dataGridView1.Rows[0].Cells[3].Value = "abcdefghigklmnopqrstuvwxyz";
         }
     }
 }

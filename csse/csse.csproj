@@ -52,6 +52,60 @@
     <Compile Include="CreateOrder.Designer.cs">
       <DependentUpon>CreateOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="DashboardPm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardPm.Designer.cs">
+      <DependentUpon>DashboardPm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardS.Designer.cs">
+      <DependentUpon>DashboardS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardSm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardSm.Designer.cs">
+      <DependentUpon>DashboardSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliveryStatus.Designer.cs">
+      <DependentUpon>DeliveryStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryStatus1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliveryStatus1.Designer.cs">
+      <DependentUpon>DeliveryStatus1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editPurchaseViewDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editPurchaseViewDetails.Designer.cs">
+      <DependentUpon>editPurchaseViewDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editPurchaseViewDetails1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editPurchaseViewDetails1.Designer.cs">
+      <DependentUpon>editPurchaseViewDetails1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editPurchaseViewDetails2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editPurchaseViewDetails2.Designer.cs">
+      <DependentUpon>editPurchaseViewDetails2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderDetails.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +117,66 @@
     </Compile>
     <Compile Include="OrderDetails1.Designer.cs">
       <DependentUpon>OrderDetails1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails2.Designer.cs">
+      <DependentUpon>OrderDetails2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails3.Designer.cs">
+      <DependentUpon>OrderDetails3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails4.Designer.cs">
+      <DependentUpon>OrderDetails4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails5.Designer.cs">
+      <DependentUpon>OrderDetails5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails6.Designer.cs">
+      <DependentUpon>OrderDetails6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails7.Designer.cs">
+      <DependentUpon>OrderDetails7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails8.Designer.cs">
+      <DependentUpon>OrderDetails8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderStatus.Designer.cs">
+      <DependentUpon>OrderStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderStatus1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderStatus1.Designer.cs">
+      <DependentUpon>OrderStatus1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrdersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrdersView.Designer.cs">
+      <DependentUpon>OrdersView.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,14 +192,95 @@
     <Compile Include="OrderTracking.Designer.cs">
       <DependentUpon>OrderTracking.cs</DependentUpon>
     </Compile>
+    <Compile Include="PurchaseView1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseView1.Designer.cs">
+      <DependentUpon>PurchaseView1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Referred.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referred.Designer.cs">
+      <DependentUpon>Referred.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Referred1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referred1.Designer.cs">
+      <DependentUpon>Referred1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Referred2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referred2.Designer.cs">
+      <DependentUpon>Referred2.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CreateOrder.resx">
       <DependentUpon>CreateOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardPm.resx">
+      <DependentUpon>DashboardPm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardS.resx">
+      <DependentUpon>DashboardS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardSm.resx">
+      <DependentUpon>DashboardSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliveryStatus.resx">
+      <DependentUpon>DeliveryStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliveryStatus1.resx">
+      <DependentUpon>DeliveryStatus1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editPurchaseViewDetails.resx">
+      <DependentUpon>editPurchaseViewDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editPurchaseViewDetails1.resx">
+      <DependentUpon>editPurchaseViewDetails1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editPurchaseViewDetails2.resx">
+      <DependentUpon>editPurchaseViewDetails2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderDetails.resx">
       <DependentUpon>OrderDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderDetails1.resx">
       <DependentUpon>OrderDetails1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails2.resx">
+      <DependentUpon>OrderDetails2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails3.resx">
+      <DependentUpon>OrderDetails3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails4.resx">
+      <DependentUpon>OrderDetails4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails5.resx">
+      <DependentUpon>OrderDetails5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails6.resx">
+      <DependentUpon>OrderDetails6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails7.resx">
+      <DependentUpon>OrderDetails7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails8.resx">
+      <DependentUpon>OrderDetails8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderStatus.resx">
+      <DependentUpon>OrderStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderStatus1.resx">
+      <DependentUpon>OrderStatus1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdersView.resx">
+      <DependentUpon>OrdersView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,6 +296,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OrderTracking.resx">
       <DependentUpon>OrderTracking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseView1.resx">
+      <DependentUpon>PurchaseView1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referred.resx">
+      <DependentUpon>Referred.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referred1.resx">
+      <DependentUpon>Referred1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referred2.resx">
+      <DependentUpon>Referred2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
