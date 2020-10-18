@@ -42,5 +42,23 @@ namespace csse
                 d.Show();
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if(textBox2.PasswordChar == '*')
+            {
+                button2.BringToFront();
+                textBox2.PasswordChar = '\0';
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox2.PasswordChar == '\0')
+            {
+                button3.BringToFront();
+                textBox2.PasswordChar = '*';
+            }
+        }
     }
 }
